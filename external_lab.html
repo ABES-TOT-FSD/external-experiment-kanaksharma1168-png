@@ -1,0 +1,108 @@
+<html>
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white; 
+    display: flex;
+    justify-content: center; 
+    padding-top: 50px;
+}
+.output-container {
+    width: 80%; 
+    max-width: 790px;
+    border: 1px solid #ccc; 
+    background-color: white;
+    
+}
+.navbar {
+    background-color: black; 
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+.logo {
+    margin: 0;
+    font-size: 1.8em;
+}
+.product-container {
+    padding: 40px;
+    text-align: center; 
+}
+.product-image {
+    margin-bottom: 30px;
+}
+.tshirt-img {
+    width: 150px;
+    height: auto;
+    background-color: darkgreen;
+    display: block;
+    margin: 0 auto; 
+}
+.product-name {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    color: black;
+}
+.product-description {
+    font-size: 0.9em;
+    color: grey;
+    margin-bottom: 15px;
+}
+.price-section {
+    margin-bottom: 25px;
+}
+.price-original {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: black;
+    margin-right: 10px;
+}
+.price-discount {
+    font-size: 1.2em;
+    color: red; 
+    text-decoration: line-through;
+}
+.add-to-cart-btn {
+    background-color: blue; 
+    color: white;
+    border: none;
+    padding: 12px 60px; 
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    width: 80%; 
+    max-width: 400px; 
+}
+.add-to-cart-btn:hover {
+    background-color: blue; 
+}
+</style>
+<body>
+<div class="output-container">
+        <header class="navbar">
+        <h1 class="logo"> ShopEasy </h1>
+        </header>
+
+        <div class="product-container">
+            <div class="product-image">
+                <img src="tshirt.jpg" alt="Classic Cotton T-Shirt" class="tshirt-img">
+                            </div>
+
+            <div class="product-details">
+                <h2 class="product-name"> Classic  Cotton  T-Shirt</h2>
+                <p class="product-description">Soft ,  breathable cotton. Regular fit. Available in five colors.</p>
+
+                <div class="price-section">
+                    <span class="price-original"> ₹799 </span>
+                    <span class="price-discount"> ₹1299 </span> </div>
+
+                <button class="add-to-cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
